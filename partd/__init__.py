@@ -14,6 +14,8 @@ with ignoring(ImportError):
     from .pandas import PandasColumns, PandasBlocks
 with ignoring(ImportError):
     from .zmq import Client, Server
+with ignoring(ImportError):
+    from .sqlite import SqliteInterface
 
 
 __version__ = '1.0.0'
